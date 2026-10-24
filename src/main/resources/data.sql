@@ -2,9 +2,9 @@
 -- LAB 01: dopiszcie tu konta wszystkich osób z zespołu (reguła R1.03).
 -- LAB 02: dopiszcie dane do swoich tabel (kolejność: najpierw tabele, na które wskazują klucze obce).
 insert into user_account (email, display_name, role, created_at) values
-    ('s086718@student.wroclaw.merito.pl',       'Adrian Korycinski', 'USER', current_timestamp),
-    ('s086718@student.wroclaw.merito.pl',       'Adrian Korycinski', 'USER', current_timestamp),
-    ('s328083@student.merito.wroclaw.pl',       'Ariel Jarosz', 'USER',   current_timestamp);
+    ('adrian.korycinski@student.wroclaw.merito.pl',       'Adrian', 'USER', current_timestamp),
+    ('kontotest@student.wroclaw.merito.pl',       'Konto', 'USER', current_timestamp),
+    ('ariel.jarosz@student.merito.wroclaw.pl',       'Ariel', 'USER',   current_timestamp);
 
 -- LAB 01: Wasze konta (zmieńcie na swoje dane, rola USER).
 -- insert into user_account (email, display_name, role, created_at) values
